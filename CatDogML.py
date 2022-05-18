@@ -1,5 +1,5 @@
 
-
+#This model will train images of cats and dogs for classification
 
 if __name__ == '__main__':
     # Cats v Dogs with custom splits
@@ -65,4 +65,4 @@ if __name__ == '__main__':
 
     history = model.fit(train_batches, epochs=25)
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
